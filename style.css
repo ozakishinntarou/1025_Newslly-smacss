@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+
+/*ベース
+------*/
+body {
+    color: #888888;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif, Arial, ;
+    line-height: 1.7;
+    letter-spacing: 0;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #202124;
+    border-left: #FA6980 10px solid;
+    padding-left: 10px;
+}
+
+
+/*LAYOUT
+--------------*/
+
+.l-inner {
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*余白*/
+.l-bb1 {
+    border-bottom: 1px #DDDDDD solid;
+}
+
+
+.l-py1 {
+    padding: 10px 0;
+}
+
+.l-py6 {
+    padding: 60px 0;
+}
+
+.l-py35 {
+    padding: 35px;
+}
+
+
+
+
+.l-mb2 {
+    margin-bottom: 20px;
+}
+
+.l-mb25 {
+    margin-bottom: 25px;
+}
+
+.l-mb3 {
+    margin-bottom: 30px;
+}
+
+.l-mb4 {
+    margin-bottom: 40px;
+}
+
+.l-mb6 {
+    margin-bottom: 60px;
+}
+
+/*color*/
+.l-bg-gray {
+    background-color: #F6F6F6;
+}
+
+.l-bg-fff {
+    background-color: #fff;
+}
+
+.l-bg-pink {
+    background-color: #FA6980;
+}
+
+.l-bg-blck {
+    background-color: #202124;
+}
+
+
+/*unit*/
+.unit-catch {
+    color: #FA6980;
+    font-size: 12px;
+}
+
+
+.unit-title {
+    color: #202124;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+.unit .l-flex {
+    justify-content: start;
+}
+
+.unit .l-flex img {
+    margin-right: 10px;
+}
+
+
+
+/*flex-box*/
+.l-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/*col*/
+.l-col2 {
+    width: 47.5%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+
+
+/*max-width*/
+.l-max-width {
+    max-width: 380px;
+}
+
+.l-max-width2 {
+    max-width: 240px;
+}
+
+
+.l-btn {
+    display: block;
+    width: 170px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 40px;
+    margin-left: auto;
+}
+
+
+/*header*/
+header img {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*footer*/
+.l-footer {
+    background-color: #202124;
+    padding: 100px 0 40px;
+}
